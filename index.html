@@ -1,27 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<!--this part of the content goes to the head -->
-<!--meta data is truly not for human to see-->
-<meta charset="UTF-8">
-<meta name="viewpoint" content="width=device-width," initial-scale="1.0">
-<meta name="description" content="This is a tutorial on the basis of how to create a web page">
-<title> My web project</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soft Interior Decor - Elegant interior design solutions for beautiful living spaces">
+    <meta name="keywords" content="interior decor, interior design, home styling, soft furnishing, interior decorator">
+    <title>Soft | Interior Decor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <body>
-<!--this part of the content goes to the body -->
-<h1>This is my world</h1>
-<h2>This is my world</h2>
-<h3>This is my world</h3>
-<p>This is a tutorial on the basis of html
-    
-</p>
-    </body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#" class="logo-link">soft</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-    <footer>
-<!--this part of the content goes to the footer -->
-<p>&copy; 2023 my web project. All right reserved</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-tagline">Interior Decor Studio</span>
+                <h1 class="hero-title">Beautiful Spaces<br>Begin with <span class="highlight">Soft</span></h1>
+                <p class="hero-description">Transforming interiors into elegant, comfortable, and timeless living experiences. Thoughtful design for every corner of your home.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder decor-image"></div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="highlight">Soft</span></h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Crafting interiors that reflect your personality and lifestyle</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded with a passion for beauty and comfort, Soft Interior Decor specializes in creating harmonious living spaces that balance aesthetics with functionality. We believe every room tells a story, and we're here to help you write yours.</p>
+                    <p>From color consultation to complete home styling, our team brings attention to detail and a soft, sophisticated touch to every project. Whether you're refreshing a single room or redesigning your entire home, we're with you every step of the way.</p>
+                    <ul class="about-features">
+                        <li><span class="feature-icon">✓</span> Personalized design consultations</li>
+                        <li><span class="feature-icon">✓</span> Custom color palettes</li>
+                        <li><span class="feature-icon">✓</span> Furniture & decor sourcing</li>
+                        <li><span class="feature-icon">✓</span> Project management</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder about-image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Comprehensive interior decor solutions for your home</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🛋️</div>
+                    <h3>Living Room Design</h3>
+                    <p>Create a warm and inviting living space with thoughtful furniture placement, lighting, and decor that reflects your style.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛏️</div>
+                    <h3>Bedroom Styling</h3>
+                    <p>Design serene and restful bedrooms with soft textiles, calming colors, and cozy ambiance for better sleep.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Dining Area</h3>
+                    <p>Elegant dining spaces perfect for gatherings, with curated table settings, lighting, and statement pieces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🖼️</div>
+                    <h3>Home Staging</h3>
+                    <p>Professional staging services to highlight your home's best features and create lasting first impressions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Color Consultation</h3>
+                    <p>Expert color advice to choose palettes that enhance your space and complement your existing furnishings.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪟</div>
+                    <h3>Soft Furnishings</h3>
+                    <p>Curtains, cushions, rugs, and textiles curated to add texture, warmth, and personality to your interiors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Project <span class="highlight">Gallery</span></h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">A glimpse into our recent interior transformations</p>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+                    <div class="section-divider"></div>
+                    <p>Ready to transform your space? Send us a message and we'll get back to you within 24 hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Design Avenue, Creative District<br>City, State 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@softinterior.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Pinterest</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="living-room">Living Room Design</option>
+                                <option value="bedroom">Bedroom Styling</option>
+                                <option value="dining">Dining Area</option>
+                                <option value="staging">Home Staging</option>
+                                <option value="color">Color Consultation</option>
+                                <option value="furnishings">Soft Furnishings</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo-link">soft</a>
+                <p>Interior Decor Studio</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe for design tips and inspiration</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Soft Interior Decor. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
+    <script src="script.js"></script>
+</body>
 </html>
